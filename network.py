@@ -41,7 +41,7 @@ def ManagementNet(net, bw=BW, queue=100):
     #net = Mininet(host=host, link=link, switch=OVSKernelSwitch, controller=controller, autoSetMacs=True, autoStaticArp=False)
 
     info('*** Adding second controller\n')
-    controller = net.addController('c1', controller=OVSController)
+    controller = net.addController('c1', controller=OVSController, port=6634)
 
     info('*** Adding management switch\n')
     # Adding switches
