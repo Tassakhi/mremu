@@ -61,8 +61,9 @@ Run the emulator:
 
 Run the emulator with POX:
 
-	```$ ./run.sh```
-	```$ sudo ~/pox/pox.py forwarding.l2_learning log.level --DEBUG samples.pretty_log```
++ Run pox - `$ sudo ~/pox/pox.py forwarding.l2_learning log.level --DEBUG samples.pretty_log`
++ Open another terminal, cd into the repo and run - `$ ./run.sh`
+	
 
 References:
 
