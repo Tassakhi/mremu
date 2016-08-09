@@ -55,9 +55,6 @@ Edit the configuration file:
 		"queue": 100
 	}
 
-Run the emulator:
-
-	./run.sh
 
 Run the emulator with POX:
 
