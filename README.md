@@ -56,9 +56,16 @@ Edit the configuration file:
 	}
 
 
-Run the emulator with POX:
+Run the emulator with Floodlight:
 
-+ Run pox - `$ sudo ~/pox/pox.py forwarding.l2_learning log.level --DEBUG samples.pretty_log`
++ Change OpenFLow port to 6633 by following these steps in floodlight.
+
+(1) open src/main/resources/floodlightdefault.properties in your controller (under the floodlight directory)
+
+(2) locate the property net.floodlightcontroller.OFSwitchManager.openFlowPort=6633
+
+Now run Floodlight controller - $ java -jar target/floodlight.jar
+
 + Open another terminal, cd into the repo and run - `$ ./run.sh`
 	
 
